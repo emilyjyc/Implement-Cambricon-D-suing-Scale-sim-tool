@@ -1,0 +1,7 @@
+Layer name, IFMAP Height, IFMAP Width, Filter Height, Filter Width, Channels, Num Filter, Strides
+Conv1,512,512,3,3,3,256,1
+Conv2,512,512,3,3,256,512,2
+Conv3,256,256,3,3,512,1024,2
+Deconv1,128,128,4,4,1024,512,2
+Deconv2,256,256,4,4,512,256,2
+Deconv3,512,512,4,4,256,3,2
